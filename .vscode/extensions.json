@@ -1,7 +1,10 @@
 {
-  "recommendations": [
-    
-    "nrwl.angular-console",
-    "esbenp.prettier-vscode"
-  ]
+	"recommendations": [
+		"nrwl.angular-console",
+		"esbenp.prettier-vscode",
+		"dbaeumer.vscode-eslint",
+		"editorconfig.editorconfig",
+		"ms-vscode.powershell",
+		"vscode-icons-team.vscode-icons"
+	]
 }

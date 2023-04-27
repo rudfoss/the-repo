@@ -1,0 +1,16 @@
+{
+	"typescript.tsdk": "node_modules\\typescript\\lib",
+
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll": true
+	},
+	"[powershell]": {
+		"editor.defaultFormatter": "ms-vscode.powershell"
+	},
+
+	"debug.console.collapseIdenticalLines": false,
+	"editor.rulers": [100],
+	"editor.wordWrapColumn": 100
+}
