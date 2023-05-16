@@ -3,20 +3,20 @@
 	"compilerOptions": {
 		"rootDir": ".",
 		"baseUrl": ".",
-
 		"target": "ESNext",
 		"moduleResolution": "node",
-		
 		"sourceMap": true,
 		"declaration": false,
 		"emitDecoratorMetadata": true,
 		"experimentalDecorators": true,
 		"importHelpers": true,
-		
 		"strict": true,
 		"skipLibCheck": true,
 		"downlevelIteration": true,
-		"esModuleInterop": true
+		"esModuleInterop": true,
+		"paths": {
+			"@the-repo/utils": ["libs/utils/src/index.ts"]
+		}
 	},
 	"exclude": ["node_modules"]
 }
