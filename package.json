@@ -1,16 +1,21 @@
 {
-  "name": "the-repo",
-  "version": "0.0.0",
-  "license": "MIT",
-  "scripts": {},
-  "private": true,
-  "devDependencies": {
-    "@nrwl/nx-cloud": "latest",
-    "@nrwl/workspace": "15.9.2",
-    "@typescript-eslint/eslint-plugin": "^5.59.1",
-    "@typescript-eslint/parser": "^5.59.1",
-    "nx": "15.9.2",
-    "tslib": "^2.5.0",
-    "typescript": "^5.0.4"
-  }
+	"name": "the-repo",
+	"version": "0.0.0",
+	"license": "MIT",
+	"scripts": {
+		"npm:update": "npx npm-check-updates -i",
+		"nx:migrate-1": "nx migrate latest",
+		"nx:migrate-2": "npm i && nx migrate --run-migrations"
+	},
+	"private": true,
+	"devDependencies": {
+		"@nrwl/nx-cloud": "latest",
+		"@nrwl/workspace": "15.9.2",
+		"@typescript-eslint/eslint-plugin": "^5.59.1",
+		"@typescript-eslint/parser": "^5.59.1",
+		"nx": "15.9.2",
+		"tslib": "^2.5.0",
+		"typescript": "^5.0.4",
+		"vite": "^4.3.3"
+	}
 }

@@ -2,6 +2,15 @@
 
 An attempt at a full mono-repository with all the tools and utilities needed for rapid development, testing, building and deployment.
 
+## Getting started
+
+Prerequisite software:
+
+- [Visual Studio Code](https://code.visualstudio.com)
+- [NodeJs](https://nodejs.org/en) - Recommended latest LTS version
+- [pnpm](https://pnpm.io/installation)
+- [git](https://git-scm.com/downloads)
+
 ## Goals
 
 - ◼️ Front-end application with React using a rust-based bundler
@@ -13,7 +22,6 @@ An attempt at a full mono-repository with all the tools and utilities needed for
 - ◼️ Password-less and secret-less development using Azure App Configuration and Azure Key Vault
 - ◼️ Fast enrollment of new developers. As few hoops as possible.
 - ◼️ Pre-built VSCode profile with extensions and configuration.
-
 
 ## Linting and formatting
 
