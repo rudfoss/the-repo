@@ -5,6 +5,8 @@
 		"dbaeumer.vscode-eslint",
 		"editorconfig.editorconfig",
 		"ms-vscode.powershell",
-		"vscode-icons-team.vscode-icons"
+		"vscode-icons-team.vscode-icons",
+		"firsttris.vscode-jest-runner",
+		"eliostruyf.vscode-typescript-exportallmodules"
 	]
 }
