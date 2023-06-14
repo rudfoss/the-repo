@@ -1,6 +1,5 @@
 {
 	"$schema": "./node_modules/nx/schemas/nx-schema.json",
-	"npmScope": "the-repo",
 	"affected": {
 		"defaultBase": "main"
 	},
@@ -10,6 +9,14 @@
 			"options": {
 				"cacheableOperations": ["build", "lint", "test", "e2e"]
 			}
+		}
+	},
+	"generators": {
+		"@nx-dotnet/core:application": {
+			"solutionFile": "the-repo.sln"
+		},
+		"@nx-dotnet/core:library": {
+			"solutionFile": "the-repo.sln"
 		}
 	},
 	"targetDefaults": {
